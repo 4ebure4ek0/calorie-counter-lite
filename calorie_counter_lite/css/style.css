@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #031019;
+    color: #8d9ea5;
+    font-family: 'Inconsolata', monospace;
+}
+.container{
+    margin: 5%;
+}
+input{
+    margin-top: 2%;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #2a465c;
+    color: #8d9ea5;
+}
+ul{
+    margin: 2% 5%;
+}
+.products{
+    font-size: 40px;
+    list-style-type: decimal-leading-zero;
+    width: 80%;
+}
+.calories{
+    margin-left: 20px;
+    float: right;
+}
+.del_btn{
+    background-color: #031019;
+    color: #e26d6d;
+    border: none;
+}
+.total{
+    font-size: 40px;
+    position:fixed;
+    left: 5%;
+    bottom: 4%;
+    color: #e26d6d;
+}
